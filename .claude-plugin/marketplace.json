@@ -1,0 +1,18 @@
+{
+  "name": "threadkeeper",
+  "owner": {
+    "name": "Kalamonde",
+    "url": "https://github.com/Kalamonde"
+  },
+  "metadata": {
+    "description": "Threadkeeper: keep your Claude desktop threads in order."
+  },
+  "plugins": [
+    {
+      "name": "threadkeeper",
+      "source": "./plugins/threadkeeper",
+      "version": "0.6.2-team.1",
+      "description": "Keeps Claude desktop threads in order: status icons, Active, Snoozed and Done sections, close to Done, snooze with wake-ups, follow-up reminders, thread names and a read-only tidy report. Guided setup, doctor and uninstall."
+    }
+  ]
+}

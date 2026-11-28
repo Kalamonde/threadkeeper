@@ -1,0 +1,4 @@
+# False positives for tools/scan.ps1, one per line:  <path or wildcard>|<regex the matched text must match>
+# Lines starting with # are ignored.
+# Made-up example ticket keys in the tag examples (setup skill, config example)
+plugins/threadkeeper/*|^(ABC-123|SUP-45)$

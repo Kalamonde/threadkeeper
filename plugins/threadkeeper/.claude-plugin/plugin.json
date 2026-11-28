@@ -1,0 +1,11 @@
+{
+  "name": "threadkeeper",
+  "version": "0.6.2-team.1",
+  "description": "Keeps Claude desktop threads in order: status icons on every thread, Active, Snoozed and Done sections, close to Done, snooze with wake-ups, follow-up reminders, thread names and a read-only tidy report. A setup asks which parts you want, a doctor checks them and one step removes them.",
+  "author": { "name": "Kalamonde", "url": "https://github.com/Kalamonde" },
+  "homepage": "https://github.com/Kalamonde/threadkeeper",
+  "repository": "https://github.com/Kalamonde/threadkeeper",
+  "license": "MIT",
+  "keywords": ["sidebar", "threads", "desktop", "status", "organise", "snooze", "reminders"],
+  "types": "./types/index.d.ts"
+}

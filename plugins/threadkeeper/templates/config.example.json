@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "plugin": "0.6.2-team.1",
+  "installedAt": "2026-11-20T14:05:00+01:00",
+  "modules": {
+    "core": true,
+    "sections": true,
+    "close": true,
+    "names": true,
+    "snooze": true,
+    "followups": true,
+    "tidy": true
+  },
+  "sections": {
+    "active": "<section id returned by create_section>",
+    "done": "<section id returned by create_section>",
+    "snoozed": "<section id returned by create_section>"
+  },
+  "sectionNames": {
+    "active": "Active",
+    "done": "Done",
+    "snoozed": "Snoozed"
+  },
+  "workday": {
+    "start": "09:00",
+    "days": "1-5",
+    "daysText": "Monday to Friday",
+    "utcOffsetAtSetup": "+01:00"
+  },
+  "names": {
+    "format": "tag",
+    "tags": ["[ABC-123] a ticket key", "[CHAT] a chat ask", "[EMAIL] an email ask", "[OWN] own work", "[MISC] anything else"]
+  },
+  "tasks": {
+    "model": "claude-sonnet-5-5",
+    "wakeSweep": { "name": "threadkeeper-wake-sweep", "cron": "0 9,12,15 * * 1-5" },
+    "tidyReport": { "name": "threadkeeper-tidy-report", "cron": "30 9 * * 1-5" }
+  }
+}

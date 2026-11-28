@@ -1,0 +1,13 @@
+# Copy this file to tools/scan-terms.local.txt and replace the examples with your own
+# private terms. The .local.txt file is ignored by git and never leaves your computer.
+#
+# One rule per line:  <rule name>|<regex>|<cs or ci>
+#   cs = case-sensitive, ci = ignore case (default)
+#   The regex may contain | itself: the name ends at the first |, the flag follows the last |.
+# Lines starting with # are ignored.
+#
+# Examples (made up):
+own name|\bAlex Example\b|ci
+user path|aexample|ci
+employer|examplecorp|ci
+colleague name|\b(Sam|Robin)\b|cs

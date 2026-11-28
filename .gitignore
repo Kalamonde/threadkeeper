@@ -1,0 +1,13 @@
+# Written by the engine for the editor
+.claude-plugin/types/
+plugins/threadkeeper/.claude-plugin/types/
+# OS and editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.log
+# Raw screenshots never go in the repo: only checked copies in docs/images
+docs/images/raw/
+# Private terms for tools/scan.ps1: never published
+tools/*.local.txt
